@@ -3,7 +3,7 @@
 % Packages:
 \usepackage[
         ignoreheadfoot, % set margins without considering header and footer
-        top=1 cm, % seperation between body and page edge from the top
+        top=0.8 cm, % seperation between body and page edge from the top
         bottom=0.8 cm, % seperation between body and page edge from the bottom
         left=0.8 cm, % seperation between body and page edge from the left
         right=0.8 cm, % seperation between body and page edge from the right
@@ -73,11 +73,11 @@
 \newenvironment{highlights}{
         \begin{itemize}[
                 topsep=0pt,
-                parsep=0.10 cm,
+                parsep=0.1 cm,
                 partopsep=0pt,
                 itemsep=0pt,
                 after=\vspace{-1\baselineskip},
-                leftmargin=0.4 cm + 3pt
+                leftmargin=0.7 cm + 3pt
             ]
     }{
         \end{itemize}
@@ -93,7 +93,7 @@
   \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
     \put(
         \LenToUnit{\paperwidth-0.8 cm-0.1 cm+0.05cm},
-        \LenToUnit{\paperheight-0.5 cm}
+        \LenToUnit{\paperheight-0.4 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
         \small\color{gray}\textit{Last updated in March 2024}\hspace{\widthof{Last updated in March 2024}}
     }}}%
@@ -144,7 +144,7 @@
     \section{Profile}
 
         \begin{changemargin}{0.1 cm}{0.1 cm}
-        Passionate machine learning developer with a PhD in Computer Science and background in applying data science techniques to study and control epidemics. Authored a handful of publications in high-impact journals and conferences on computer modeling, reinforcement learning, and graph neural networks. Experienced in several data frameworks and tools, including Pandas, PyTorch, NetworkX, and LangChain. Demonstrated capabilities in software engineering and stakeholder management both in academia and industry. Excellent collaboration skills, with a track record of working effectively in multidisciplinary teams. Eager to join innovative AI initiatives.
+        Passionate machine learning developer with a PhD in Computer Science and background in applying data science techniques to study and control epidemics. Authored a handful of publications in high-impact journals and conferences on computer modeling, reinforcement learning, and graph neural networks. Experienced in several data frameworks and tools, including Pandas, PyTorch, NetworkX, and LangChain. Demonstrated capabilities in software engineering and stakeholder management both in academia and industry. Excellent collaboration skills, with a track record of working effectively in multidisciplinary teams. Eager to join AI projects with high societal impact.
         \end{changemargin}
 
 
@@ -162,11 +162,11 @@
         }
             \textbf{University of Southampton}, PhD in Computer Science and Student Ambassador
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \begin{highlights}
                 \item Analyzed the dynamics of epidemics via network-based models, publishing two journal studies and an award-winning conference paper. Thesis: \href{https://eprints.soton.ac.uk/486201}{Inquiry into diffusion processes over interaction networks}.
-                \item Used graph neural networks and reinforcement learning to derive highly effective and explainable policies for testing, tracing, and vaccination in viral epidemics.
+                \item Used graph neural networks and reinforcement learning to derive effective and explainable policies for testing, tracing, and vaccination in viral epidemics.
                 \item Mentored, supervised, and demonstrated labs for pupils, undergraduate and postgraduate students on several topics, including deep learning, data science, software engineering, and University life.
             \end{highlights}
             &
@@ -184,11 +184,11 @@
         }
             \textbf{Continental Automotive}, Software Developer
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \begin{highlights}
                 \item Took part in a successful company-wide research project aimed at comparing the four major cloud providers in terms of their natural language understanding engines.
-                \item Built an Android chatbot system with Google Dialogflow and text-to-speech integration, capable of answering queries about weather, traffic, location, places, and others.
+                \item Built an Android chatbot application with Google Dialogflow and text-to-speech integration, capable of answering queries about weather, traffic, location, places, and others.
             \end{highlights}
             &
             Iasi, Romania
@@ -205,11 +205,11 @@
         }
             \textbf{J.P. Morgan Chase \& Co.}, Technology Analyst, Intern
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \begin{highlights}
-                \item Interacted on a daily basis with middle-office and traders to implement and maintain dependable trading risk management tools, improving both efficiency and profits.
-                \item Acquired a clear understanding of OOP design and Agile workflows by developing features for Kapital, a critical system for the bank with hundreds of users.
+                \item Interacted on a daily basis with middle-office and traders to implement and maintain dependable risk management tools, improving both efficiency and profits.
+                \item Acquired a clear understanding of OOP design and Agile workflows by developing features for Kapital, a critical system in the company with hundreds of users.
             \end{highlights}
             &
             London, UK
@@ -226,7 +226,7 @@
         }
             \textbf{Akixi Ltd.}, Web and Java Developer, Intern
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \begin{highlights}
                 \item Developed a utility for on-demand compilation of JSP files, offering our users the option to generate personalized PDF documentation faithful to our help portals.
@@ -245,20 +245,17 @@
         \begin{tabularx}{
             \textwidth-0.2 cm-0.13cm
         }{
-            L{0.85cm}
             K{0.1 cm}
             R{4.1 cm}
         }
-            \textbf{BSc}
-            &
-            \textbf{University of Southampton}, Computer Science
+            \textbf{University of Southampton}, BSc in Computer Science
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \begin{highlights}
                 \item First Class Honours with average grade of 84\% (1st year), 84.75\% (2nd year), and 85.5\% (3rd year)
                 \item Achieved the Netcraft Ltd. prize for ranking in the top 10 of my class according to marks.
-                \item \textbf{Coursework:} Machine Learning, Data Mining, Computer Vision, Intelligent Systems, Advanced Databases, Computational Finance, Individual Project: \href{https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp}{Using VAEs for sharper image generation}.
+                \item \textbf{Coursework:} Machine Learning, Data Mining, Computer Vision, Intelligent Systems, Advanced Databases, Computational Finance, Individual Project: \href{https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp}{Exploring VAEs for sharper image generation}.
             \end{highlights}
             &
             
@@ -273,11 +270,11 @@
         \begin{tabularx}{\textwidth-0.2 cm-0.13cm}{K{0.1 cm} R{4.1 cm}}
             \textbf{EpiCURB: Learning to derive epidemic control policies}
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \mbox{A. C. Rusu}, \mbox{K. Farrahi}, \mbox{M. Niranjan}
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \href{https://doi.org/10.1109/MPRV.2023.3329546}{10.1109/MPRV.2023.3329546} (IEEE Pervasive Computing - \href{https://eprints.soton.ac.uk/484685/}{In Press})    &
             Oct. 2023
@@ -287,11 +284,11 @@
         \begin{tabularx}{\textwidth-0.2 cm-0.13cm}{K{0.1 cm} R{4.1 cm}}
             \textbf{Flattening the curve through reinforcement learning driven test and trace policies}
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \mbox{A. C. Rusu}, \mbox{K. Farrahi}, \mbox{M. Niranjan}
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \href{https://doi.org/10.1007/978-3-031-34586-9\_14}{10.1007/978-3-031-34586-9\_14} (EAI PervasiveHealth 2022)    &
             Dec. 2022
@@ -301,11 +298,11 @@
         \begin{tabularx}{\textwidth-0.2 cm-0.13cm}{K{0.1 cm} R{4.1 cm}}
             \textbf{Modelling digital and manual contact tracing. Are low uptakes and missed contacts deal-breakers?}
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \mbox{A. C. Rusu}, \mbox{R. Emonet}, \mbox{K. Farrahi}
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \href{https://doi.org/10.1371/journal.pone.0259969}{10.1371/journal.pone.0259969} (PLOS One)    &
             Oct. 2021
@@ -323,11 +320,11 @@
         }
             \textbf{LLM chatbots}
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \begin{highlights}
                 \item Developed several LLM applications for chatting with documents and searching the web for information.
-                \item Used Python (LangChain, Streamlit), Java (Android), and JavaScript (Google Dialogflow). \href{https://github.com/andrei-rusu/llm-agent}{More details},\href{https://github.com/andrei-rusu/Chatbot}{}.
+                \item Used Python (LangChain, Streamlit), Java (Android), JavaScript (Google Functions). \href{https://github.com/andrei-rusu/llm-agent}{More details}\href{https://github.com/andrei-rusu/Chatbot}{}.
             \end{highlights}
             &
             
@@ -345,11 +342,11 @@
         }
             \textbf{Agents for controlling diffusion processes}
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \begin{highlights}
                 \item Developed several agents that can rank nodes in a graph for directing public health interventions.
-                \item Used Python (PyTorch, PyTorch Lightning, scikit-learn), Bash scripting, and SLURM. \href{https://github.com/andrei-rusu/control-diffusion}{More details}.
+                \item Used Python (PyTorch, PyTorch Lightning, scikit-learn), Bash scripting, SLURM. \href{https://github.com/andrei-rusu/control-diffusion}{More details}.
             \end{highlights}
             &
             
@@ -367,11 +364,11 @@
         }
             \textbf{IBMF epidemic simulator}
 
-            \vspace{0.10 cm}
+            \vspace{0.1 cm}
 
             \begin{highlights}
                 \item Developed a network-based simulator for diffusion processes that is highly customizable and can be used to model and visualize the spread of complex pathogens such as SARS-CoV-2.
-                \item Used Python (NetworkX, Pandas), Bash scripting, and SLURM. \href{https://github.com/andrei-rusu/contact-tracing-model}{More details}.
+                \item Used Python (NetworkX, Pandas), Bash scripting, SLURM. \href{https://github.com/andrei-rusu/contact-tracing-model}{More details}.
             \end{highlights}
             &
             
@@ -416,7 +413,7 @@
         \advance\csname @rightskip\endcsname 0.1 cm
         \advance\rightskip 0.1 cm
 
-        \textbf{Marketing Executive (2016 - 2017):} In charge of the marketing strategy and digital content of HackaSoton, student society responsible for the annual hackathon at the University of Southampton. \par\endgroup
+        \textbf{Marketing Executive (2016 - 2017):} In charge of the marketing strategy and digital content of HackaSoton, student society responsible for the annual hackathons at the University of Southampton. \par\endgroup
 
         \vspace{0.2 cm}
         \begingroup\leftskip=0.1 cm

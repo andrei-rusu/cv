@@ -17,14 +17,14 @@ cv:
         frameworks and tools, including Pandas, PyTorch, NetworkX, and LangChain. 
         Demonstrated capabilities in software engineering and stakeholder management both in academia 
         and industry. Excellent collaboration skills, with a track record 
-        of working effectively in multidisciplinary teams. Eager to join innovative AI initiatives.
+        of working effectively in multidisciplinary teams. Eager to join AI projects with high societal impact.
     experience:
       - start_date: 2019-09
         end_date: 2024-02
         highlights:
           - 'Analyzed the dynamics of epidemics via network-based models,
             publishing two journal studies and an award-winning conference paper. Thesis: [Inquiry into diffusion processes over interaction networks](https://eprints.soton.ac.uk/486201).'
-          - Used graph neural networks and reinforcement learning to derive highly effective
+          - Used graph neural networks and reinforcement learning to derive effective
             and explainable policies for testing, tracing, and vaccination in viral epidemics.
           - Mentored, supervised, and demonstrated labs for pupils, undergraduate and postgraduate 
             students on several topics, including deep learning, data science, software engineering, 
@@ -37,7 +37,7 @@ cv:
         highlights:
           - Took part in a successful company-wide research project aimed at comparing the four major cloud providers 
             in terms of their natural language understanding engines.
-          - Built an Android chatbot system with Google Dialogflow and text-to-speech integration, capable of answering 
+          - Built an Android chatbot application with Google Dialogflow and text-to-speech integration, capable of answering 
             queries about weather, traffic, location, places, and others.
         location: Iasi, Romania
         company: Continental Automotive
@@ -45,10 +45,10 @@ cv:
       - start_date: 2017-06
         end_date: 2018-06
         highlights:
-          - Interacted on a daily basis with middle-office and traders to implement and maintain dependable trading risk management tools, 
+          - Interacted on a daily basis with middle-office and traders to implement and maintain dependable risk management tools, 
             improving both efficiency and profits.
           - Acquired a clear understanding of OOP design and Agile workflows by developing features for Kapital, 
-            a critical system for the bank with hundreds of users.
+            a critical system in the company with hundreds of users.
         location: London, UK
         company: J.P. Morgan Chase & Co.
         position: Technology Analyst, Intern
@@ -68,10 +68,9 @@ cv:
           - 'First Class Honours with average grade of 84% (1st year), 84.75% (2nd year), and 85.5% (3rd year)'
           - 'Achieved the Netcraft Ltd. prize for ranking in the top 10 of my class according to marks.'
           - '**Coursework:** Machine Learning, Data Mining, Computer Vision, Intelligent Systems, Advanced Databases, 
-            Computational Finance, Individual Project: [Using VAEs for sharper image generation](https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp).'
-        institution: University of Southampton
-        area: Computer Science
-        degree: BSc
+            Computational Finance, Individual Project: [Exploring VAEs for sharper image generation](https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp).'
+        company: University of Southampton
+        position: BSc in Computer Science
     publications:
       - title: 'EpiCURB: Learning to derive epidemic control policies'
         authors:
@@ -102,20 +101,20 @@ cv:
         end_date: 2024-01
         highlights:
           - Developed several LLM applications for chatting with documents and searching the web for information.
-          - Used Python (LangChain, Streamlit), Java (Android), and JavaScript (Google Dialogflow). [More details](https://github.com/andrei-rusu/llm-agent),[](https://github.com/andrei-rusu/Chatbot).
+          - Used Python (LangChain, Streamlit), Java (Android), JavaScript (Google Functions). [More details](https://github.com/andrei-rusu/llm-agent)[](https://github.com/andrei-rusu/Chatbot).
         name: LLM chatbots
       - start_date: 2021-12
         end_date: 2023-06
         highlights:
           - Developed several agents that can rank nodes in a graph for directing public health interventions.
-          - Used Python (PyTorch, PyTorch Lightning, scikit-learn), Bash scripting, and SLURM. [More details](https://github.com/andrei-rusu/control-diffusion).
+          - Used Python (PyTorch, PyTorch Lightning, scikit-learn), Bash scripting, SLURM. [More details](https://github.com/andrei-rusu/control-diffusion).
         name: Agents for controlling diffusion processes
       - start_date: 2020-09
         end_date: 2021-11
         highlights:
           - Developed a network-based simulator for diffusion processes that is highly customizable and
             can be used to model and visualize the spread of complex pathogens such as SARS-CoV-2.
-          - Used Python (NetworkX, Pandas), Bash scripting, and SLURM. [More details](https://github.com/andrei-rusu/contact-tracing-model).
+          - Used Python (NetworkX, Pandas), Bash scripting, SLURM. [More details](https://github.com/andrei-rusu/contact-tracing-model).
         name: IBMF epidemic simulator
     additional_experience_and_awards:
       - name: Best Paper Award at EAI PervasiveHealth (2022)
@@ -128,7 +127,7 @@ cv:
         details: Developed a PHP application for a charity organization in 48 hours.
       - name: Marketing Executive (2016 - 2017)
         details: In charge of the marketing strategy and digital content of HackaSoton, 
-                 student society responsible for the annual hackathon at the University of Southampton.
+                 student society responsible for the annual hackathons at the University of Southampton.
       - name: Chess National Champion (2006)
         details: Creative thinking developed through playing chess competitively.
                  Won the 2006 single and team national championships in my age category in Romania. Former president of the chess club at the University of Southampton.
@@ -149,7 +148,7 @@ design:
   text_alignment: justified
   margins:
     page:
-      top: 1 cm
+      top: 0.8 cm
       bottom: 0.8 cm
       left: 0.8 cm
       right: 0.8 cm
@@ -161,9 +160,9 @@ design:
       vertical_between: 0.2 cm
       date_and_location_width: 4.1 cm
     highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
+      top: 0.1 cm
+      left: 0.7 cm
+      vertical_between_bullet_points: 0.1 cm
     header:
       vertical_between_name_and_connections: 0.3 cm
       bottom: 0.3 cm
