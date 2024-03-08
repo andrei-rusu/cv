@@ -1,6 +1,6 @@
 cv:
   name: Andrei Rusu
-  location: 453 Portswood Road, Southampton, SO17 2TH, UK
+  location: 453 Portswood Road, Southampton, UK
   email: rusu.c.andrei@gmail.com
   website: https://andrei-rusu.github.io/MyCV/
   social_networks:
@@ -10,14 +10,11 @@ cv:
       username: andrei-rusu
   sections:
     profile:
-      - Passionate machine learning developer with a PhD in Computer Science and background 
-        in applying data science techniques to study and control epidemics. Authored a handful 
-        of publications in high-impact journals and conferences on computer modeling, 
-        reinforcement learning, and graph neural networks. Experienced in several data 
-        frameworks and tools, including Pandas, PyTorch, NetworkX, and LangChain. 
-        Demonstrated capabilities in software engineering and stakeholder management both in academia 
-        and industry. Excellent collaboration skills, with a track record 
-        of working effectively in multidisciplinary teams. Eager to join AI projects with high societal impact.
+      - Passionate machine learning developer with a PhD in Computer Science and background in applying data science techniques to study
+        and control epidemics. Authored a handful of publications in high-impact journals and conferences on computer modeling, reinforcement learning, 
+        and graph neural networks. Experienced in several data frameworks and tools, including Pandas, PyTorch, NetworkX, and
+        LangChain. Demonstrated capabilities in software engineering and stakeholder management both in academia and industry. Excellent
+        collaboration skills, with a track record of working effectively in multidisciplinary teams. Eager to join AI projects with high societal impact.
     experience:
       - start_date: 2019-09
         end_date: 2024-02
@@ -67,8 +64,8 @@ cv:
         highlights:
           - 'First Class Honours with average grade of 84% (1st year), 84.75% (2nd year), and 85.5% (3rd year)'
           - 'Achieved the Netcraft Ltd. prize for ranking in the top 10 of my class according to marks.'
-          - '**Coursework:** Machine Learning, Data Mining, Computer Vision, Intelligent Systems, Advanced Databases, 
-            Computational Finance, Individual Project: [Exploring VAEs for sharper image generation](https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp).'
+          - '**Coursework:** Machine Learning, Computer Vision, Advanced Databases, Computational Finance, Data Mining, Intelligent Systems,
+            Individual Project: [Exploring VAEs for sharper image generation](https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp).'
         company: University of Southampton
         position: BSc in Computer Science
     publications:
@@ -119,11 +116,11 @@ cv:
     additional_experience_and_awards:
       - name: Best Paper Award at EAI PervasiveHealth (2022)
         details: Awarded for the paper "Flattening the curve through reinforcement learning driven test and trace policies".
-      - name: 3rd place at the Continental Hackathon Bug Hunt (2018)
+      - name: Third place at the Continental Hackathon Bug Hunt (2018)
         details: Traced and fixed several bugs in the company's navigation platform.
       - name: Bloomberg Market Concepts (2018)
         details: Acquired knowledge of financial markets and instruments through completing the BMC course.
-      - name: 2nd place at the J.P. Morgan Intern Hackathon (2017)
+      - name: Second place at the J.P. Morgan Intern Hackathon (2017)
         details: Developed a PHP application for a charity organization in 48 hours.
       - name: Marketing Executive (2016 - 2017)
         details: In charge of the marketing strategy and digital content of HackaSoton, 

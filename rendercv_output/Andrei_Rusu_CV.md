@@ -1,7 +1,7 @@
 # Andrei Rusu's CV
 
 - Email: [rusu.c.andrei@gmail.com](mailto:rusu.c.andrei@gmail.com)
-- Location: 453 Portswood Road, Southampton, SO17 2TH, UK
+- Location: 453 Portswood Road, Southampton, UK
 - Website: [andrei-rusu.github.ioMyCV](https://andrei-rusu.github.io/MyCV/)
 - LinkedIn: [andrei-c-rusu-5a0a89106](https://linkedin.com/in/andrei-c-rusu-5a0a89106)
 - GitHub: [andrei-rusu](https://github.com/andrei-rusu)
@@ -50,7 +50,7 @@ Passionate machine learning developer with a PhD in Computer Science and backgro
 
 - First Class Honours with average grade of 84% (1st year), 84.75% (2nd year), and 85.5% (3rd year)
 - Achieved the Netcraft Ltd. prize for ranking in the top 10 of my class according to marks.
-- **Coursework:** Machine Learning, Data Mining, Computer Vision, Intelligent Systems, Advanced Databases, Computational Finance, Individual Project: [Exploring VAEs for sharper image generation](https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp).
+- **Coursework:** Machine Learning, Computer Vision, Advanced Databases, Computational Finance, Data Mining, Intelligent Systems, Individual Project: [Exploring VAEs for sharper image generation](https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp).
 
 # Publications
 
@@ -89,9 +89,9 @@ Passionate machine learning developer with a PhD in Computer Science and backgro
 # Additional Experience And Awards
 
 - Best Paper Award at EAI PervasiveHealth (2022): Awarded for the paper "Flattening the curve through reinforcement learning driven test and trace policies".
-- 3rd place at the Continental Hackathon Bug Hunt (2018): Traced and fixed several bugs in the company's navigation platform.
+- Third place at the Continental Hackathon Bug Hunt (2018): Traced and fixed several bugs in the company's navigation platform.
 - Bloomberg Market Concepts (2018): Acquired knowledge of financial markets and instruments through completing the BMC course.
-- 2nd place at the J.P. Morgan Intern Hackathon (2017): Developed a PHP application for a charity organization in 48 hours.
+- Second place at the J.P. Morgan Intern Hackathon (2017): Developed a PHP application for a charity organization in 48 hours.
 - Marketing Executive (2016 - 2017): In charge of the marketing strategy and digital content of HackaSoton, student society responsible for the annual hackathons at the University of Southampton.
 - Chess National Champion (2006): Creative thinking developed through playing chess competitively. Won the 2006 single and team national championships in my age category in Romania. Former president of the chess club at the University of Southampton.
 # Technologies
