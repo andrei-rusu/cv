@@ -135,7 +135,7 @@ design:
   text_alignment: justified
   margins:
     page:
-      top: 1.8 cm
+      top: 1.5 cm
       bottom: 1.2 cm
       left: 1.2 cm
       right: 1.2 cm
