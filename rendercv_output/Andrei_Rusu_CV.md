@@ -93,5 +93,5 @@
 # Technologies
 
 - Languages: Python, Java, MATLAB, JavaScript, C/C++, Smalltalk, Bash, SQL.
-- Software: VS Code, Jupyter, Azure Machine Learning, Google Dialogflow, Android Studio, Microsoft 365 (incl. Power BI).
+- Software: VS Code, Jupyter, Azure Machine Learning, Google Dialogflow, Docker, Android Studio, Microsoft 365 (incl. Power BI).
 - Databases: MySQL, PostgreSQL, Azure Cosmos DB, MongoDB, Qdrant.

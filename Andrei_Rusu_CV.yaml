@@ -122,7 +122,7 @@ cv:
       - name: Languages
         details: Python, Java, MATLAB, JavaScript, C/C++, Smalltalk, Bash, SQL.
       - name: Software
-        details: VS Code, Jupyter, Azure Machine Learning, Google Dialogflow, Android Studio, Microsoft 365 (incl. Power BI).
+        details: VS Code, Jupyter, Azure Machine Learning, Google Dialogflow, Docker, Android Studio, Microsoft 365 (incl. Power BI).
       - name: Databases
         details: MySQL, PostgreSQL, Azure Cosmos DB, MongoDB, Qdrant.
 design:
