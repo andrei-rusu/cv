@@ -29,14 +29,14 @@
 - Jun. 2017 to Jun. 2018 
 - London, UK 
 - Worked alongside middle-office and traders to implement and maintain dependable risk management tools, some of which lead to 25% improvements in the reporting time.
-- Acquired a clear understanding of OOP design and Agile workflows by developing features for the Kapital platform, a critical risk management with hundreds of users.
+- Acquired a clear understanding of OOP design and Agile workflows by developing features for the Kapital platform, a critical risk management system with hundreds of users.
 
 ## Akixi Ltd., Web and Java Developer, Intern
 
 - Jun. 2016 to Sep. 2016 
 - Crawley, UK 
 - Developed a utility for on-demand compilation of JSP files, offering our users the option to generate personalized PDF documentation based on the help pages of our call reporting application.
-- Created an application for testing Java Servlet services that became widely used in the company, reducing the time spent on manual testing environment configuration by more than 30%.
+- Created a platform for testing Java Servlet services that became widely used in the company, reducing the time spent on manual testing environment configuration by more than 30%.
 
 # Education
 
