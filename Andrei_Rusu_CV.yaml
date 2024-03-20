@@ -1,6 +1,6 @@
 cv:
   name: Andrei Rusu
-  location: 453 Portswood Road, Southampton, UK
+  label: Data Scientist
   email: rusu.c.andrei@gmail.com
   website: https://andrei-rusu.github.io/MyCV/
   social_networks:
@@ -9,43 +9,37 @@ cv:
     - network: GitHub
       username: andrei-rusu
   sections:
-    profile:
-      - Passionate machine learning developer with a PhD in Computer Science and background in applying data science techniques to study
-        and control epidemics. Authored a handful of publications in high-impact journals and conferences on computer modeling, reinforcement learning, 
-        and graph neural networks. Experienced in several data frameworks and tools, including Pandas, PyTorch, NetworkX, and
-        LangChain. Demonstrated capabilities in software engineering and stakeholder management both in academia and industry. Excellent
-        collaboration skills, with a track record of working effectively in multidisciplinary teams. Eager to join AI projects with high societal impact.
     experience:
       - start_date: 2019-09
         end_date: 2024-02
         highlights:
-          - 'Analyzed the dynamics of epidemics via network-based models,
-            publishing two journal studies and an award-winning conference paper. Thesis: [Inquiry into diffusion processes over interaction networks](https://eprints.soton.ac.uk/486201).'
-          - Used graph neural networks and reinforcement learning to derive effective
-            and explainable policies for testing, tracing, and vaccination in viral epidemics.
+          - 'Published two journal studies and an award-winning conference paper on epidemic modeling and data-driven control. Thesis: [An inquiry into diffusion processes over interaction networks](https://eprints.soton.ac.uk/486201).'
+          - Designed an efficient graph neural network architecture and a reinforcement learning pipeline to derive highly effective
+            and explainable policies for testing, tracing, and vaccination in epidemics, increasing their impact by margins of up to 50% when compared to standard strategies.
+          - Authored a research report on the potential of language models to be used in conjunction with system biology models to detect
+            neoantigenic peptides for developing cancer vaccines.
           - Mentored, supervised, and demonstrated labs for pupils, undergraduate and postgraduate 
-            students on several topics, including deep learning, data science, software engineering, 
-            and University life.
+            students on several topics, including deep learning, data science and software engineering.
         location: Southampton, UK
         company: University of Southampton
         position: PhD in Computer Science and Student Ambassador
       - start_date: 2018-07
         end_date: 2018-09
         highlights:
-          - Took part in a successful company-wide research project aimed at comparing the four major cloud providers 
+          - Contributed to a successful interdepartmental research project aimed at comparing the four major cloud providers 
             in terms of their natural language understanding engines.
-          - Built an Android chatbot application with Google Dialogflow and text-to-speech integration, capable of answering 
-            queries about weather, traffic, location, places, and others.
+          - Built an Android chatbot for drivers with Google Dialogflow and text-to-speech integration, capable of answering 
+            queries about the traffic, location or weather at 20% of the cost of other providers.
         location: Iasi, Romania
         company: Continental Automotive
-        position: Software Developer
+        position: Software Developer, Intern
       - start_date: 2017-06
         end_date: 2018-06
         highlights:
-          - Interacted on a daily basis with middle-office and traders to implement and maintain dependable risk management tools, 
-            improving both efficiency and profits.
-          - Acquired a clear understanding of OOP design and Agile workflows by developing features for Kapital, 
-            a critical system in the company with hundreds of users.
+          - Worked alongside middle-office and traders to implement and maintain dependable risk management tools, 
+            some of which lead to 25% improvements in the reporting time.
+          - Acquired a clear understanding of OOP design and Agile workflows by developing features for the 
+            Kapital platform, a critical risk management with hundreds of users.
         location: London, UK
         company: J.P. Morgan Chase & Co.
         position: Technology Analyst, Intern
@@ -53,8 +47,9 @@ cv:
         end_date: 2016-09
         highlights:
           - Developed a utility for on-demand compilation of JSP files, offering our users
-            the option to generate personalized PDF documentation faithful to our help portals.
-          - Created a web portal for testing Java Servlet applications that became widely used in the company.
+            the option to generate personalized PDF documentation based on the help pages of our call reporting application.
+          - Created an application for testing Java Servlet services that became widely used in the company,
+            reducing the time spent on manual testing environment configuration by more than 30%.
         location: Crawley, UK
         company: Akixi Ltd.
         position: Web and Java Developer, Intern
@@ -62,12 +57,11 @@ cv:
       - start_date: 2015-09
         end_date: 2019-07
         highlights:
-          - 'First Class Honours with average grade of 84% (1st year), 84.75% (2nd year), and 85.5% (3rd year)'
-          - 'Achieved the Netcraft Ltd. prize for ranking in the top 10 of my class according to marks.'
-          - '**Coursework:** Machine Learning, Computer Vision, Advanced Databases, Computational Finance, Data Mining, Intelligent Systems,
-            Individual Project: [Exploring VAEs for sharper image generation](https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp).'
+          - 'First Class Honours with the average grades 84% (1\textsuperscript{st} year), 84.75% (2\textsuperscript{nd} year), and 85.5% (3\textsuperscript{rd} year).'
+          - 'Achieved the Netcraft Ltd. prize for ranking in the top 10 of my cohort according to marks.'
+          - 'Individual Project: [Exploring VAEs in the context of image generation](https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp).'
         company: University of Southampton
-        position: BSc in Computer Science
+        position: BSc in Computer Science with Industrial Studies
     publications:
       - title: 'EpiCURB: Learning to derive epidemic control policies'
         authors:
@@ -82,7 +76,7 @@ cv:
           - Andrei C. Rusu
           - Katayoun Farrahi
           - Mahesan Niranjan
-        journal: EAI PervasiveHealth 2022
+        journal: EAI PervasiveHealth
         doi: 10.1007/978-3-031-34586-9\_14
         date: 2022-12
       - title: 'Modelling digital and manual contact tracing. Are low uptakes and missed contacts deal-breakers?'
@@ -94,45 +88,41 @@ cv:
         doi: 10.1371/journal.pone.0259969
         date: 2021-10
     recent_projects:
-      - start_date: 2018-07
-        end_date: 2024-01
+      - date: 2024-01
         highlights:
-          - Developed several LLM applications for chatting with documents and searching the web for information.
-          - Used Python (LangChain, Streamlit), Java (Android), JavaScript (Google Functions). [More details](https://github.com/andrei-rusu/llm-agent)[](https://github.com/andrei-rusu/Chatbot).
-        name: LLM chatbots
-      - start_date: 2021-12
-        end_date: 2023-06
+          - Developed several chatbot applications for retrieving information from documents and the web.
+          - Used Python (LangChain, Streamlit), Java (Android), JavaScript (Google Cloud). [Details](https://github.com/andrei-rusu/llm-agent),[](https://github.com/andrei-rusu/Chatbot).
+        name: LLM applications
+      - date: 2023-06
         highlights:
-          - Developed several agents that can rank nodes in a graph for directing public health interventions.
-          - Used Python (PyTorch, PyTorch Lightning, scikit-learn), Bash scripting, SLURM. [More details](https://github.com/andrei-rusu/control-diffusion).
+          - Engineered several agents that can rank nodes in a graph for directing public health interventions.
+          - Used Python (PyTorch, PyTorch Lightning, scikit-learn), Bash scripting, SLURM. [Details](https://github.com/andrei-rusu/control-diffusion).
         name: Agents for controlling diffusion processes
-      - start_date: 2020-09
-        end_date: 2021-11
+      - date: 2021-11
         highlights:
-          - Developed a network-based simulator for diffusion processes that is highly customizable and
+          - Implemented a network-based simulator for diffusion processes that is highly customizable and
             can be used to model and visualize the spread of complex pathogens such as SARS-CoV-2.
-          - Used Python (NetworkX, Pandas), Bash scripting, SLURM. [More details](https://github.com/andrei-rusu/contact-tracing-model).
+          - Used Python (Pandas, NetworkX, PyMC), Bash scripting, SLURM. [Details](https://github.com/andrei-rusu/contact-tracing-model).
         name: IBMF epidemic simulator
     additional_experience_and_awards:
+      - name: Complete Guide to Power BI for Data Analysts by Microsoft Press (2024)
+        details: Received certificate for completing the Power BI course.
       - name: Best Paper Award at EAI PervasiveHealth (2022)
-        details: Awarded for the paper "Flattening the curve through reinforcement learning driven test and trace policies".
-      - name: Third place at the Continental Hackathon Bug Hunt (2018)
-        details: Traced and fixed several bugs in the company's navigation platform.
+        details: Awarded for our contribution to reinforcement learning and epidemic control.
       - name: Bloomberg Market Concepts (2018)
-        details: Acquired knowledge of financial markets and instruments through completing the BMC course.
-      - name: Second place at the J.P. Morgan Intern Hackathon (2017)
-        details: Developed a PHP application for a charity organization in 48 hours.
+        details: Received certificate for finishing the BMC course, which covers topics in financial markets.
+      - name: 3\textsuperscript{rd} place at the Continental Hackathon Bug Hunt (2018)
+        details: Traced and fixed data-retrieving bugs in a TomTom navigation platform.
+      - name: 2\textsuperscript{nd} place at the J.P. Morgan Intern Hackathon (2017)
+        details: Developed a data-centric PHP application for a charity organization.
       - name: Marketing Executive (2016 - 2017)
-        details: In charge of the marketing strategy and digital content of HackaSoton, 
-                 student society responsible for the annual hackathons at the University of Southampton.
-      - name: Chess National Champion (2006)
-        details: Creative thinking developed through playing chess competitively.
-                 Won the 2006 single and team national championships in my age category in Romania. Former president of the chess club at the University of Southampton.
+        details: Responsible for the marketing strategy and the digital content of HackaSoton, 
+                 student society that organizes the annual hackathons at the University of Southampton.
     technologies:
       - name: Languages
         details: Python, Java, MATLAB, JavaScript, C/C++, Smalltalk, Bash, SQL.
       - name: Software
-        details: Jupyter, VS Code, Eclipse, Android Studio, PyCharm, Code::Blocks, Pharo.
+        details: VS Code, Jupyter, Azure Machine Learning, Google Dialogflow, Android Studio, Pharo, Microsoft 365 (incl. Power BI).
 design:
   theme: classic
   font_size: 10pt
@@ -145,10 +135,10 @@ design:
   text_alignment: justified
   margins:
     page:
-      top: 0.8 cm
-      bottom: 0.8 cm
-      left: 0.8 cm
-      right: 0.8 cm
+      top: 1.8 cm
+      bottom: 1.2 cm
+      left: 1.2 cm
+      right: 1.2 cm
     section_title:
       top: 0.3 cm
       bottom: 0.2 cm

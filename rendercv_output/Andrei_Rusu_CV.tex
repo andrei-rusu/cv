@@ -3,11 +3,11 @@
 % Packages:
 \usepackage[
         ignoreheadfoot, % set margins without considering header and footer
-        top=0.8 cm, % seperation between body and page edge from the top
-        bottom=0.8 cm, % seperation between body and page edge from the bottom
-        left=0.8 cm, % seperation between body and page edge from the left
-        right=0.8 cm, % seperation between body and page edge from the right
-        footskip=0.4 cm, % seperation between body and footer
+        top=1.8 cm, % seperation between body and page edge from the top
+        bottom=1.2 cm, % seperation between body and page edge from the bottom
+        left=1.2 cm, % seperation between body and page edge from the left
+        right=1.2 cm, % seperation between body and page edge from the right
+        footskip=0.6 cm, % seperation between body and footer
         % showframe % for debugging 
     ]{geometry} % for adjusting page geometry
 \usepackage[explicit]{titlesec} % for customizing section titles
@@ -92,8 +92,8 @@
 \newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
   \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
     \put(
-        \LenToUnit{\paperwidth-0.8 cm-0.1 cm+0.05cm},
-        \LenToUnit{\paperheight-0.4 cm}
+        \LenToUnit{\paperwidth-1.2 cm-0.1 cm+0.05cm},
+        \LenToUnit{\paperheight-0.9 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
         \small\color{gray}\textit{Last updated in March 2024}\hspace{\widthof{Last updated in March 2024}}
     }}}%
@@ -128,8 +128,6 @@
         \normalsize
         \mbox{\hrefWithoutArrow{mailto:rusu.c.andrei@gmail.com}{{\small\faEnvelope[regular]}\hspace*{0.13cm}rusu.c.andrei@gmail.com}}
         \hspace*{0.5 cm}
-        \mbox{{\small\faMapMarker*}\hspace*{0.13cm}453 Portswood Road, Southampton, UK}
-        \hspace*{0.5 cm}
         \mbox{\hrefWithoutArrow{https://andrei-rusu.github.io/MyCV/}{{\small\faLink}\hspace*{0.13cm}andrei-rusu.github.io/MyCV}}
         \hspace*{0.5 cm}
         \mbox{\hrefWithoutArrow{https://linkedin.com/in/andrei-c-rusu-5a0a89106}{{\small\faLinkedinIn}\hspace*{0.13cm}andrei-c-rusu-5a0a89106}}
@@ -141,17 +139,6 @@
     \vspace{0.3 cm}
 
 
-    \section{Profile}
-
-        \begin{changemargin}{0.1 cm}{0.1 cm}
-        Passionate machine learning developer with a PhD in Computer Science and background in applying data science techniques to study and control epidemics. Authored a handful of publications in high-impact journals and conferences on computer modeling, reinforcement learning, and graph neural networks. Experienced in several data frameworks and tools, including Pandas, PyTorch, NetworkX, and LangChain. Demonstrated capabilities in software engineering and stakeholder management both in academia and industry. Excellent collaboration skills, with a track record of working effectively in multidisciplinary teams. Eager to join AI projects with high societal impact.
-        \end{changemargin}
-
-
-
-
-
-    
     \section{Experience}
 
         \begin{tabularx}{
@@ -165,14 +152,15 @@
             \vspace{0.1 cm}
 
             \begin{highlights}
-                \item Analyzed the dynamics of epidemics via network-based models, publishing two journal studies and an award-winning conference paper. Thesis: \href{https://eprints.soton.ac.uk/486201}{Inquiry into diffusion processes over interaction networks}.
-                \item Used graph neural networks and reinforcement learning to derive effective and explainable policies for testing, tracing, and vaccination in viral epidemics.
-                \item Mentored, supervised, and demonstrated labs for pupils, undergraduate and postgraduate students on several topics, including deep learning, data science, software engineering, and University life.
+                \item Published two journal studies and an award-winning conference paper on epidemic modeling and data-driven control. Thesis: \href{https://eprints.soton.ac.uk/486201}{An inquiry into diffusion processes over interaction networks}.
+                \item Designed an efficient graph neural network architecture and a reinforcement learning pipeline to derive highly effective and explainable policies for testing, tracing, and vaccination in epidemics, increasing their impact by margins of up to 50\% when compared to standard strategies.
+                \item Authored a research report on the potential of language models to be used in conjunction with system biology models to detect neoantigenic peptides for developing cancer vaccines.
+                \item Mentored, supervised, and demonstrated labs for pupils, undergraduate and postgraduate students on several topics, including deep learning, data science and software engineering.
             \end{highlights}
             &
             Southampton, UK
 
-            Sept. 2019 to Feb. 2024
+            Sep. 2019 to Feb. 2024
         \end{tabularx}
 
         \vspace{0.2 cm}
@@ -182,18 +170,18 @@
             K{0.1 cm}
             R{4.1 cm}
         }
-            \textbf{Continental Automotive}, Software Developer
+            \textbf{Continental Automotive}, Software Developer, Intern
 
             \vspace{0.1 cm}
 
             \begin{highlights}
-                \item Took part in a successful company-wide research project aimed at comparing the four major cloud providers in terms of their natural language understanding engines.
-                \item Built an Android chatbot application with Google Dialogflow and text-to-speech integration, capable of answering queries about weather, traffic, location, places, and others.
+                \item Contributed to a successful interdepartmental research project aimed at comparing the four major cloud providers in terms of their natural language understanding engines.
+                \item Built an Android chatbot for drivers with Google Dialogflow and text-to-speech integration, capable of answering queries about the traffic, location or weather at 20\% of the cost of other providers.
             \end{highlights}
             &
             Iasi, Romania
 
-            July 2018 to Sept. 2018
+            Jul. 2018 to Sep. 2018
         \end{tabularx}
 
         \vspace{0.2 cm}
@@ -208,13 +196,13 @@
             \vspace{0.1 cm}
 
             \begin{highlights}
-                \item Interacted on a daily basis with middle-office and traders to implement and maintain dependable risk management tools, improving both efficiency and profits.
-                \item Acquired a clear understanding of OOP design and Agile workflows by developing features for Kapital, a critical system in the company with hundreds of users.
+                \item Worked alongside middle-office and traders to implement and maintain dependable risk management tools, some of which lead to 25\% improvements in the reporting time.
+                \item Acquired a clear understanding of OOP design and Agile workflows by developing features for the Kapital platform, a critical risk management with hundreds of users.
             \end{highlights}
             &
             London, UK
 
-            June 2017 to June 2018
+            Jun. 2017 to Jun. 2018
         \end{tabularx}
 
         \vspace{0.2 cm}
@@ -229,13 +217,13 @@
             \vspace{0.1 cm}
 
             \begin{highlights}
-                \item Developed a utility for on-demand compilation of JSP files, offering our users the option to generate personalized PDF documentation faithful to our help portals.
-                \item Created a web portal for testing Java Servlet applications that became widely used in the company.
+                \item Developed a utility for on-demand compilation of JSP files, offering our users the option to generate personalized PDF documentation based on the help pages of our call reporting application.
+                \item Created an application for testing Java Servlet services that became widely used in the company, reducing the time spent on manual testing environment configuration by more than 30\%.
             \end{highlights}
             &
             Crawley, UK
 
-            June 2016 to Sept. 2016
+            Jun. 2016 to Sep. 2016
         \end{tabularx}
 
 
@@ -248,19 +236,19 @@
             K{0.1 cm}
             R{4.1 cm}
         }
-            \textbf{University of Southampton}, BSc in Computer Science
+            \textbf{University of Southampton}, BSc in Computer Science with Industrial Studies
 
             \vspace{0.1 cm}
 
             \begin{highlights}
-                \item First Class Honours with average grade of 84\% (1st year), 84.75\% (2nd year), and 85.5\% (3rd year)
-                \item Achieved the Netcraft Ltd. prize for ranking in the top 10 of my class according to marks.
-                \item \textbf{Coursework:} Machine Learning, Computer Vision, Advanced Databases, Computational Finance, Data Mining, Intelligent Systems, Individual Project: \href{https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp}{Exploring VAEs for sharper image generation}.
+                \item First Class Honours with the average grades 84\% (1\textsuperscript{st} year), 84.75\% (2\textsuperscript{nd} year), and 85.5\% (3\textsuperscript{rd} year).
+                \item Achieved the Netcraft Ltd. prize for ranking in the top 10 of my cohort according to marks.
+                \item Individual Project: \href{https://www.dropbox.com/scl/fi/vnkh7tqct5sn05g47bgto/Report.pdf?rlkey=qrtt4q4nrgrii9bazfej1u6fp}{Exploring VAEs in the context of image generation}.
             \end{highlights}
             &
             
 
-            Sept. 2015 to July 2019
+            Sep. 2015 to Jul. 2019
         \end{tabularx}
 
 
@@ -290,7 +278,7 @@
 
             \vspace{0.1 cm}
 
-            \href{https://doi.org/10.1007/978-3-031-34586-9\_14}{10.1007/978-3-031-34586-9\_14} (EAI PervasiveHealth 2022)    &
+            \href{https://doi.org/10.1007/978-3-031-34586-9\_14}{10.1007/978-3-031-34586-9\_14} (EAI PervasiveHealth)    &
             Dec. 2022
         \end{tabularx}
 
@@ -318,18 +306,18 @@
             K{0.1 cm}
             R{4.1 cm}
         }
-            \textbf{LLM chatbots}
+            \textbf{LLM applications}
 
             \vspace{0.1 cm}
 
             \begin{highlights}
-                \item Developed several LLM applications for chatting with documents and searching the web for information.
-                \item Used Python (LangChain, Streamlit), Java (Android), JavaScript (Google Functions). \href{https://github.com/andrei-rusu/llm-agent}{More details}\href{https://github.com/andrei-rusu/Chatbot}{}.
+                \item Developed several chatbot applications for retrieving information from documents and the web.
+                \item Used Python (LangChain, Streamlit), Java (Android), JavaScript (Google Cloud). \href{https://github.com/andrei-rusu/llm-agent}{Details},\href{https://github.com/andrei-rusu/Chatbot}{}.
             \end{highlights}
             &
             
 
-            July 2018 to Jan. 2024
+            Jan. 2024
         \end{tabularx}
 
 
@@ -345,13 +333,13 @@
             \vspace{0.1 cm}
 
             \begin{highlights}
-                \item Developed several agents that can rank nodes in a graph for directing public health interventions.
-                \item Used Python (PyTorch, PyTorch Lightning, scikit-learn), Bash scripting, SLURM. \href{https://github.com/andrei-rusu/control-diffusion}{More details}.
+                \item Engineered several agents that can rank nodes in a graph for directing public health interventions.
+                \item Used Python (PyTorch, PyTorch Lightning, scikit-learn), Bash scripting, SLURM. \href{https://github.com/andrei-rusu/control-diffusion}{Details}.
             \end{highlights}
             &
             
 
-            Dec. 2021 to June 2023
+            Jun. 2023
         \end{tabularx}
 
 
@@ -367,13 +355,13 @@
             \vspace{0.1 cm}
 
             \begin{highlights}
-                \item Developed a network-based simulator for diffusion processes that is highly customizable and can be used to model and visualize the spread of complex pathogens such as SARS-CoV-2.
-                \item Used Python (NetworkX, Pandas), Bash scripting, SLURM. \href{https://github.com/andrei-rusu/contact-tracing-model}{More details}.
+                \item Implemented a network-based simulator for diffusion processes that is highly customizable and can be used to model and visualize the spread of complex pathogens such as SARS-CoV-2.
+                \item Used Python (Pandas, NetworkX, PyMC), Bash scripting, SLURM. \href{https://github.com/andrei-rusu/contact-tracing-model}{Details}.
             \end{highlights}
             &
             
 
-            Sept. 2020 to Nov. 2021
+            Nov. 2021
         \end{tabularx}
 
 
@@ -385,42 +373,42 @@
         \advance\csname @rightskip\endcsname 0.1 cm
         \advance\rightskip 0.1 cm
 
-        \textbf{Best Paper Award at EAI PervasiveHealth (2022):} Awarded for the paper "Flattening the curve through reinforcement learning driven test and trace policies". \par\endgroup
+        \textbf{Complete Guide to Power BI for Data Analysts by Microsoft Press (2024):} Received certificate for completing the Power BI course. \par\endgroup
 
         \vspace{0.2 cm}
         \begingroup\leftskip=0.1 cm
         \advance\csname @rightskip\endcsname 0.1 cm
         \advance\rightskip 0.1 cm
 
-        \textbf{Third place at the Continental Hackathon Bug Hunt (2018):} Traced and fixed several bugs in the company's navigation platform. \par\endgroup
+        \textbf{Best Paper Award at EAI PervasiveHealth (2022):} Awarded for our contribution to reinforcement learning and epidemic control. \par\endgroup
 
         \vspace{0.2 cm}
         \begingroup\leftskip=0.1 cm
         \advance\csname @rightskip\endcsname 0.1 cm
         \advance\rightskip 0.1 cm
 
-        \textbf{Bloomberg Market Concepts (2018):} Acquired knowledge of financial markets and instruments through completing the BMC course. \par\endgroup
+        \textbf{Bloomberg Market Concepts (2018):} Received certificate for finishing the BMC course, which covers topics in financial markets. \par\endgroup
 
         \vspace{0.2 cm}
         \begingroup\leftskip=0.1 cm
         \advance\csname @rightskip\endcsname 0.1 cm
         \advance\rightskip 0.1 cm
 
-        \textbf{Second place at the J.P. Morgan Intern Hackathon (2017):} Developed a PHP application for a charity organization in 48 hours. \par\endgroup
+        \textbf{3\textsuperscript{rd} place at the Continental Hackathon Bug Hunt (2018):} Traced and fixed data-retrieving bugs in a TomTom navigation platform. \par\endgroup
 
         \vspace{0.2 cm}
         \begingroup\leftskip=0.1 cm
         \advance\csname @rightskip\endcsname 0.1 cm
         \advance\rightskip 0.1 cm
 
-        \textbf{Marketing Executive (2016 - 2017):} In charge of the marketing strategy and digital content of HackaSoton, student society responsible for the annual hackathons at the University of Southampton. \par\endgroup
+        \textbf{2\textsuperscript{nd} place at the J.P. Morgan Intern Hackathon (2017):} Developed a data-centric PHP application for a charity organization. \par\endgroup
 
         \vspace{0.2 cm}
         \begingroup\leftskip=0.1 cm
         \advance\csname @rightskip\endcsname 0.1 cm
         \advance\rightskip 0.1 cm
 
-        \textbf{Chess National Champion (2006):} Creative thinking developed through playing chess competitively. Won the 2006 single and team national championships in my age category in Romania. Former president of the chess club at the University of Southampton. \par\endgroup
+        \textbf{Marketing Executive (2016 - 2017):} Responsible for the marketing strategy and the digital content of HackaSoton, student society that organizes the annual hackathons at the University of Southampton. \par\endgroup
 
 
     
@@ -437,7 +425,7 @@
         \advance\csname @rightskip\endcsname 0.1 cm
         \advance\rightskip 0.1 cm
 
-        \textbf{Software:} Jupyter, VS Code, Eclipse, Android Studio, PyCharm, Code::Blocks, Pharo. \par\endgroup
+        \textbf{Software:} VS Code, Jupyter, Azure Machine Learning, Google Dialogflow, Android Studio, Pharo, Microsoft 365 (incl. Power BI). \par\endgroup
 
 
     
