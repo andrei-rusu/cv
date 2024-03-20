@@ -12,8 +12,8 @@
 
 - Sep. 2019 to Feb. 2024 
 - Southampton, UK 
-- Published two journal studies and an award-winning conference paper on epidemic modeling and data-driven control. Thesis: [An inquiry into diffusion processes over interaction networks](https://eprints.soton.ac.uk/486201).
-- Designed an efficient graph neural network architecture and a reinforcement learning pipeline to derive highly effective and explainable policies for testing, tracing, and vaccination in epidemics, increasing their impact by margins of up to 50% when compared to standard strategies.
+- Published two journal studies and an award-winning conference paper on data-driven epidemic modeling and control. Thesis: [An inquiry into diffusion processes over interaction networks](https://eprints.soton.ac.uk/486201).
+- Designed an efficient graph neural network architecture and a reinforcement learning pipeline to derive highly effective and explainable policies for testing, tracing, and vaccination in epidemics, increasing their simulated impact by margins of up to 50% when compared to standard strategies.
 - Authored a research report on the potential of language models to be used in conjunction with system biology models to detect neoantigenic peptides for developing cancer vaccines.
 - Mentored, supervised, and demonstrated labs for pupils, undergraduate and postgraduate students on several topics, including deep learning, data science and software engineering.
 
@@ -89,8 +89,9 @@
 - Bloomberg Market Concepts (2018): Received certificate for finishing the BMC course, which covers topics in financial markets.
 - 3\textsuperscript{rd} place at the Continental Hackathon Bug Hunt (2018): Traced and fixed data-retrieving bugs in a TomTom navigation platform.
 - 2\textsuperscript{nd} place at the J.P. Morgan Intern Hackathon (2017): Developed a data-centric PHP application for a charity organization.
-- Marketing Executive (2016 - 2017): Responsible for the marketing strategy and the digital content of HackaSoton, student society that organizes the annual hackathons at the University of Southampton.
+- Marketing Executive (2016 - 2017): Responsible for the marketing strategy and the digital content of HackaSoton, a student society that organizes the annual hackathons at the University of Southampton.
 # Technologies
 
 - Languages: Python, Java, MATLAB, JavaScript, C/C++, Smalltalk, Bash, SQL.
-- Software: VS Code, Jupyter, Azure Machine Learning, Google Dialogflow, Android Studio, Pharo, Microsoft 365 (incl. Power BI).
+- Software: VS Code, Jupyter, Azure Machine Learning, Google Dialogflow, Android Studio, Microsoft 365 (incl. Power BI).
+- Databases: MySQL, PostgreSQL, Azure Cosmos DB, MongoDB, Qdrant.

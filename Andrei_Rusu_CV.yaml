@@ -13,9 +13,9 @@ cv:
       - start_date: 2019-09
         end_date: 2024-02
         highlights:
-          - 'Published two journal studies and an award-winning conference paper on epidemic modeling and data-driven control. Thesis: [An inquiry into diffusion processes over interaction networks](https://eprints.soton.ac.uk/486201).'
+          - 'Published two journal studies and an award-winning conference paper on data-driven epidemic modeling and control. Thesis: [An inquiry into diffusion processes over interaction networks](https://eprints.soton.ac.uk/486201).'
           - Designed an efficient graph neural network architecture and a reinforcement learning pipeline to derive highly effective
-            and explainable policies for testing, tracing, and vaccination in epidemics, increasing their impact by margins of up to 50% when compared to standard strategies.
+            and explainable policies for testing, tracing, and vaccination in epidemics, increasing their simulated impact by margins of up to 50% when compared to standard strategies.
           - Authored a research report on the potential of language models to be used in conjunction with system biology models to detect
             neoantigenic peptides for developing cancer vaccines.
           - Mentored, supervised, and demonstrated labs for pupils, undergraduate and postgraduate 
@@ -116,13 +116,15 @@ cv:
       - name: 2\textsuperscript{nd} place at the J.P. Morgan Intern Hackathon (2017)
         details: Developed a data-centric PHP application for a charity organization.
       - name: Marketing Executive (2016 - 2017)
-        details: Responsible for the marketing strategy and the digital content of HackaSoton, 
+        details: Responsible for the marketing strategy and the digital content of HackaSoton, a
                  student society that organizes the annual hackathons at the University of Southampton.
     technologies:
       - name: Languages
         details: Python, Java, MATLAB, JavaScript, C/C++, Smalltalk, Bash, SQL.
       - name: Software
-        details: VS Code, Jupyter, Azure Machine Learning, Google Dialogflow, Android Studio, Pharo, Microsoft 365 (incl. Power BI).
+        details: VS Code, Jupyter, Azure Machine Learning, Google Dialogflow, Android Studio, Microsoft 365 (incl. Power BI).
+      - name: Databases
+        details: MySQL, PostgreSQL, Azure Cosmos DB, MongoDB, Qdrant.
 design:
   theme: classic
   font_size: 10pt
